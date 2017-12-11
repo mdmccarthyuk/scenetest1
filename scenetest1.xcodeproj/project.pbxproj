@@ -21,6 +21,8 @@
 		071B69C31FDD88450022DDD0 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B69BC1FDD88450022DDD0 /* Generics.swift */; };
 		071B69C41FDD88450022DDD0 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B69BD1FDD88450022DDD0 /* Float+Extensions.swift */; };
 		071B69C51FDD88450022DDD0 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071B69BE1FDD88450022DDD0 /* Double+Extensions.swift */; };
+		071B69C81FDD9A6E0022DDD0 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 071B69C61FDD9A6D0022DDD0 /* spark.png */; };
+		071B69C91FDD9A6E0022DDD0 /* Trail.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 071B69C71FDD9A6E0022DDD0 /* Trail.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		071B69BC1FDD88450022DDD0 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 		071B69BD1FDD88450022DDD0 /* Float+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Extensions.swift"; sourceTree = "<group>"; };
 		071B69BE1FDD88450022DDD0 /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		071B69C61FDD9A6D0022DDD0 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		071B69C71FDD9A6E0022DDD0 /* Trail.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Trail.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +76,12 @@
 		071B699E1FDD7B980022DDD0 /* scenetest1 */ = {
 			isa = PBXGroup;
 			children = (
+				071B69CB1FDDAB460022DDD0 /* Resources */,
+				071B69CA1FDDAB340022DDD0 /* AppFlow */,
 				071B69B71FDD88450022DDD0 /* GameUtils */,
 				071B69B31FDD7F680022DDD0 /* GeometryFighter.scnassets */,
-				071B699F1FDD7B980022DDD0 /* AppDelegate.swift */,
-				071B69A31FDD7B980022DDD0 /* GameViewController.swift */,
 				071B69B51FDD82570022DDD0 /* ShapeType.swift */,
-				071B69A51FDD7B980022DDD0 /* Main.storyboard */,
 				071B69A81FDD7B980022DDD0 /* Assets.xcassets */,
-				071B69AA1FDD7B980022DDD0 /* LaunchScreen.storyboard */,
 				071B69AD1FDD7B980022DDD0 /* Info.plist */,
 			);
 			path = scenetest1;
@@ -97,6 +99,26 @@
 				071B69BE1FDD88450022DDD0 /* Double+Extensions.swift */,
 			);
 			path = GameUtils;
+			sourceTree = "<group>";
+		};
+		071B69CA1FDDAB340022DDD0 /* AppFlow */ = {
+			isa = PBXGroup;
+			children = (
+				071B699F1FDD7B980022DDD0 /* AppDelegate.swift */,
+				071B69A31FDD7B980022DDD0 /* GameViewController.swift */,
+			);
+			path = AppFlow;
+			sourceTree = "<group>";
+		};
+		071B69CB1FDDAB460022DDD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				071B69A51FDD7B980022DDD0 /* Main.storyboard */,
+				071B69AA1FDD7B980022DDD0 /* LaunchScreen.storyboard */,
+				071B69C61FDD9A6D0022DDD0 /* spark.png */,
+				071B69C71FDD9A6E0022DDD0 /* Trail.scnp */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071B69C81FDD9A6E0022DDD0 /* spark.png in Resources */,
 				071B69AC1FDD7B980022DDD0 /* LaunchScreen.storyboard in Resources */,
 				071B69A91FDD7B980022DDD0 /* Assets.xcassets in Resources */,
 				071B69A71FDD7B980022DDD0 /* Main.storyboard in Resources */,
+				071B69C91FDD9A6E0022DDD0 /* Trail.scnp in Resources */,
 				071B69B41FDD7F690022DDD0 /* GeometryFighter.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
